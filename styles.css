@@ -1,5 +1,5 @@
 body{
-
+  background-color: rgb(28, 28, 28) !important;
   display:flex;
   justify-content: center;
   align-items:center;
@@ -8,16 +8,22 @@ body{
   height:100vh;
 }
 
+h1{
+  color:white
+}
+
 .btn{
   height: 75px;
   width: 75px;
   margin: 2px;
   font-size: 50px;
+  border-radius: 50% !important;
 }
 
 .number{
   border: 1px solid greenyellow !important;
   border-radius: 10px;
+  color: white !important;
 }
 
 .number:hover{
@@ -27,15 +33,23 @@ body{
 .operator{
   border: 1px solid lightblue !important;
   border-radius: 10px;
+  color: white !important;
 }
 
 .operator:hover {
   background-color: lightblue !important;
 }
 
+.alter{
+  border: 1px solid rgb(212, 212, 210) !important;
+  background-color: rgb(212, 212, 210) !important;
+  font: black;
+}
+
 .decimal{
   border: 1px solid gold !important;
   border-radius: 10px;
+  color: white !important;
 }
 
 .decimal:hover {
@@ -45,6 +59,7 @@ body{
 .equal{
   border: 1px solid lightpink !important;
   border-radius: 10px;
+  color: white !important;
 }
 
 .equal:hover{
@@ -52,8 +67,10 @@ body{
 }
 
 .clear{
-  border: 1px solid gray !important;
+  border: 1px solid rgb(212, 212, 210) !important;
+  background-color: rgb(212, 212, 210) !important;
   border-radius: 10px;
+  font: black;
 }
 
 .clear:hover{
