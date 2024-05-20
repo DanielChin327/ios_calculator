@@ -21,27 +21,18 @@ h1{
 }
 
 .number{
-  border: 1px solid greenyellow !important;
+  background-color: rgb(80, 80, 80) !important;
   border-radius: 10px;
   color: white !important;
-}
-
-.number:hover{
-  background-color: greenyellow !important;
 }
 
 .operator{
-  border: 1px solid lightblue !important;
+  background-color: orange !important;
   border-radius: 10px;
   color: white !important;
 }
 
-.operator:hover {
-  background-color: lightblue !important;
-}
-
 .alter{
-  border: 1px solid rgb(212, 212, 210) !important;
   background-color: rgb(212, 212, 210) !important;
   font: black;
 }
@@ -52,18 +43,10 @@ h1{
   color: white !important;
 }
 
-.decimal:hover {
-  background-color: gold !important;
-}
-
 .equal{
-  border: 1px solid lightpink !important;
+  background-color: orange !important;
   border-radius: 10px;
   color: white !important;
-}
-
-.equal:hover{
-  background-color: lightpink !important;
 }
 
 .clear{
@@ -71,10 +54,6 @@ h1{
   background-color: rgb(212, 212, 210) !important;
   border-radius: 10px;
   font: black;
-}
-
-.clear:hover{
-  background-color: lightgray !important;
 }
 
 .first-row{
